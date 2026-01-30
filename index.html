@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wedding Gift - Sabarivasan</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #fdf6f6;
+            color: #4a4a4a;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            text-align: center;
+        }
+        .container {
+            background: white;
+            padding: 40px;
+            border-radius: 20px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+            max-width: 400px;
+            width: 90%;
+            border-top: 8px solid #d4a373;
+        }
+        h1 { font-family: 'Georgia', serif; color: #d4a373; margin-bottom: 10px; }
+        p { line-height: 1.6; margin-bottom: 25px; }
+        .qr-code {
+            width: 200px;
+            height: 200px;
+            margin: 0 auto 20px;
+            border: 2px solid #f0f0f0;
+            padding: 10px;
+            border-radius: 10px;
+        }
+        .upi-id {
+            background: #f8f9fa;
+            padding: 10px;
+            border-radius: 5px;
+            font-weight: bold;
+            color: #333;
+            border: 1px dashed #d4a373;
+            cursor: pointer;
+        }
+        .footer { font-size: 0.8em; color: #888; margin-top: 30px; }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>Thank You!</h1>
+    <p>Your presence is the greatest gift, but if you wish to bless us with a token of love, you can scan the code below.</p>
+    
+    <div class="qr-code">
+        <img src="https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=upi://pay?pa=sabarivasan7778-1@okhdfcbank" alt="UPI QR Code" style="width:100%;">
+    </div>
+
+    <div class="upi-id">
+        sabarivasan7778-1@okhdfcbank
+    </div>
+
+    <p class="footer">With Love,<br>Sabarivasan & Family</p>
+</div>
+
+</body>
+</html>
